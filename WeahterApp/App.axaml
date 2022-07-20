@@ -1,0 +1,12 @@
+<Application xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:weahterApp="clr-namespace:WeahterApp"
+             x:Class="WeahterApp.App">
+    <Application.DataTemplates>
+        <weahterApp:ViewLocator />
+    </Application.DataTemplates>
+
+    <Application.Styles>
+        <FluentTheme Mode="Dark" />
+    </Application.Styles>
+</Application>
